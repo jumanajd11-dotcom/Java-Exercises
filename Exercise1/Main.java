@@ -109,10 +109,10 @@ public class Main {
        • Input: String 1 = "Hello", String 2 = "hello"
        • Expected Output: Strings are equal (ignoring case).*/
 
-        System.out.println("Enter String 1 :");
+        System.out.println("Enter String 1:");
         String s1 = input.nextLine();
 
-        System.out.println("Enter String 2 :");
+        System.out.println("Enter String 2:");
         String s2 = input.nextLine();
 
         System.out.println("Strings are equal (ignoring case): " + s1.equalsIgnoreCase(s2));
