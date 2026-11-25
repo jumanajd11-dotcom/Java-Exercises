@@ -57,9 +57,9 @@ public class Main {
     number: 4
     Expected Output:Wednesday */
 
-    System.out.println("Enter integer number between 1 and 7:");
-    int day = input.nextInt();
-
+    int day = (int)(Math.random() * 7) + 1;
+    System.out.println("number: " + day);
+        
     switch(day){
         case 1:
             System.out.println("Sunday");
