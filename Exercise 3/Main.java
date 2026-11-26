@@ -45,12 +45,16 @@ public class Main {
 
         System.out.println("Enter number:");
         int number = input.nextInt();
+        if (number < 0) {
+            System.out.println("negative numbers not defined");
+        }
+        else {
         long factorial = 1; //(long) is data type
         for (int i = 1; i <= number; i++) {
             factorial *= i;
         }
         System.out.println("factorial of number: " + number + " is " + factorial);
-
+        }
 //------------------------------------------------------------------------------------------------------------------
     /* 4- Two numbers are entered through the keyboard.
      Write a program to find the value of one number raised to the power of another.
